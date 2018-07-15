@@ -23,6 +23,8 @@ And a bunch of pandoc filters:
 
 The `demos` folder contains self-containing example documents that each showcase a certain feature one may wish to use in academic writing.
 
+The pandoc commands to run on the various .md files are commented out in the YAML header.
+
 ## Installation
 
 ### macOS
