@@ -4,7 +4,7 @@
 
 This repository is meant to showcase capabilities of [pandoc](http://pandoc.org/) in an academic setting, in particularly technical writing. scientists engineers. I decided to write my MSc thesis in Markdown, using pandoc + pandoc filters + LaTeX template. This was time consuming to learn and set up, but the advantages are clear:
 
-1. **Simplicity + Power:** GitHub Flavored Markdown (GFM) + extensions gives a source text format that is a lot simpler and nicer to read than LaTeX source code.
+1. **Simplicity + Power:** GitHub Flavored Markdown (GFM) + extensions gives a source text format that is a lot simpler and nicer to read than LaTeX source code and still provides most of the power.
 2. **Format flexibility:** Being markdown, the source text is more flexible since it can be converted into various document formats via pandoc (HTML, docx, latex, pdf)
 
 What you need for this workflow to work:
@@ -16,14 +16,14 @@ And a bunch of pandoc filters:
 
 1. `pandoc-citeproc` (for citing references using biblatex)
 2. `pandoc-crossref` (for cross-referencing figures, equations and tables, can optionally use cref from `cleverref` latex package)
-3. `pandoc-newpage` [OPTOINAL] (a non-essential filter that conveniently converts horizontal lines in markdown into `\cleardoublepage` in latex)
+3. `pandoc-newpage` [OPTIONAL] (a non-essential filter that conveniently converts horizontal lines in markdown into `\cleardoublepage` in latex)
 4. `pandoc-minted` [OPTIONAL] (if you wish to use latex package `minted` for source code syntax highlighting)
 
 ## Demos
 
 The `demos` folder contains self-containing example documents that each showcase a certain feature one may wish to use in academic writing.
 
-The pandoc commands to run on the various .md files are commented out in the YAML header.
+The pandoc commands to run on the various .md files are commented out in the YAML header of the demo documents.
 
 ## Installation
 
