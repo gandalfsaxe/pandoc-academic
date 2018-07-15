@@ -98,3 +98,8 @@ header-includes:
 
 * [Default loaded LaTeX packages](https://pandoc.org/MANUAL.html#creating-a-pdf)
 * [Default LaTeX variables are listed here](https://pandoc.org/MANUAL.html#variables-for-latex)
+
+## TODO
+
+### Maybe
+Add to README.md a single example that is a mixture of all the demos as a minimal example + TOC
