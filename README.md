@@ -25,6 +25,10 @@ The `demos` folder contains self-containing example documents that each showcase
 
 The pandoc commands to run on the various .md files are commented out in the YAML header of the demo documents.
 
+### Other demo resources
+
+pandoc-crossref have good [documentation](https://github.com/lierdakil/pandoc-crossref/blob/master/docs/index.md) and a [demo](https://github.com/lierdakil/pandoc-crossref/blob/master/docs/demo/demo.md) with corresponding [latex](https://github.com/lierdakil/pandoc-crossref/blob/master/docs/demo/output.latex) output and [pdf output](https://github.com/lierdakil/pandoc-crossref/blob/master/docs/demo/output.pdf), and finally an example [makefile](https://github.com/lierdakil/pandoc-crossref/blob/master/docs/demo/Makefile).
+
 ## Installation
 
 ### macOS
