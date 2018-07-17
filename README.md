@@ -32,7 +32,7 @@ The pandoc commands to run on the various .md files are commented out in the YAM
 ```bash
 brew install pandoc
 brew install pandoc-citeproc
-brew install pandoc-carossref
+brew install pandoc-crossref
 ```
 
 ### Windows
