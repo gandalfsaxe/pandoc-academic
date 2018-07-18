@@ -50,12 +50,25 @@ Then install pandoc-crossref:
 1. Download windows-*.zip from [pandoc-crossref releases](https://github.com/lierdakil/pandoc-crossref/releases) (if necessary, newest committed but not released version of pandoc-crossref can be found [here](https://ci.appveyor.com/project/lierdakil/pandoc-crossref/build/artifacts)).
 2. Extract and add pandoc-crossref.exe to PATH.
 
-#### Alternative
+#### Alternative 1 - MSI installer
 
 Alternatively both pandoc and pandoc-citeproc can be manually installed with the release MSI installer:
 
 1. Download pandoc-*-windows-x86_64.zip from [pandoc releases](https://github.com/jgm/pandoc/releases).
 2. Extract and add both pandoc.exe and pandoc-crossref.exe to PATH.
+
+The application will then be typically found in `C:\Users\[USER]\AppData\Local\Pandoc` and the path automatically added to PATH.
+
+#### Alternative 2 - Compiling source
+
+1. git clone `https://github.com/jgm/pandoc`
+2. download / install the [Haskell tool stack](https://docs.haskellstack.org/en/stable/README/).
+3. Go to the cloned pandoc repository and run:
+    1. `stack update`
+    2. `stack build` (can take a while)
+    3. `stack install`
+
+The binaries will then typically be put in `C:\Users\[USERS]\AppData\Roaming\local\bin\`
 
 ### Additional filters via pip (all platforms)
 
