@@ -61,7 +61,7 @@ The application will then be typically found in `C:\Users\[USER]\AppData\Local\P
 
 #### Alternative 2 - Compiling source
 
-1. git clone `https://github.com/jgm/pandoc`
+1. `git clone https://github.com/jgm/pandoc`
 2. download / install the [Haskell tool stack](https://docs.haskellstack.org/en/stable/README/).
 3. Go to the cloned pandoc repository and run:
     1. `stack update`
