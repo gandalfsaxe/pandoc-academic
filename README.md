@@ -41,15 +41,20 @@ brew install pandoc-crossref
 
 ### Windows
 
-Install `pandoc` and `pandoc-citeproc`:
-
-1. Download `pandoc-*-windows-x86_64.zip` from [pandoc releases](https://github.com/jgm/pandoc/releases).
-2. Extract and add both `pandoc.exe` and `pandoc-crossref.exe` to PATH.
+pandoc and pandoc-citeproc comes with Anaconda, but pandoc is not always up-to-date. For that you can install it from conda-forge:
+`conda install -c conda-forge pandoc`
 
 Install `pandoc-crossref`:
 
 1. Download `windows-*.zip` from [pandoc-crossref releases](https://github.com/lierdakil/pandoc-crossref/releases) (if necessary, newest committed but not released version of `pandoc-crossref` can be found [here](https://ci.appveyor.com/project/lierdakil/pandoc-crossref/build/artifacts)).
 2. Extract and add `pandoc-crossref.exe` to PATH.
+
+#### Alternative
+
+Alternatively both `pandoc` and `pandoc-citeproc` can be manually installed with the release MSI installer:
+
+1. Download `pandoc-*-windows-x86_64.zip` from [pandoc releases](https://github.com/jgm/pandoc/releases).
+2. Extract and add both `pandoc.exe` and `pandoc-crossref.exe` to PATH.
 
 ### Additional filters via pip (all platforms)
 

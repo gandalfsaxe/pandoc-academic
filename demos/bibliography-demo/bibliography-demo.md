@@ -21,4 +21,8 @@ Pizza (@pizza2000identification) is an understudied yet widely utilized implemen
 
 $$f(x)=pizza^2$$
 
+# NES for Orbital Mechanics
+
+And now for something completely different: Using evolution strategies [@Salimans2017] for finding low energy transfer orbits. Cool right This section was just to make a second reference.
+
 # References
