@@ -48,7 +48,7 @@ pandoc and pandoc-citeproc comes with Anaconda, but pandoc is not always up-to-d
 Then install pandoc-crossref:
 
 1. Download windows-*.zip from [pandoc-crossref releases](https://github.com/lierdakil/pandoc-crossref/releases) (if necessary, newest committed but not released version of pandoc-crossref can be found [here](https://ci.appveyor.com/project/lierdakil/pandoc-crossref/build/artifacts)).
-2. Extract and add pandoc-crossref.exe to PATH.
+2. Extract and move pandoc-crossref.exe to a folder in PATH.
 
 #### Alternative 1 - MSI installer
 
