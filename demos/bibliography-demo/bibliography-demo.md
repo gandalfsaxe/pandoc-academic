@@ -6,7 +6,7 @@ bibliography: paper.bib
 classoption: twocolumn
 
 # Inspiration: https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8
-pandoc -F pandoc-citeproc bibliography-demo.md -o bibliography-demo.pdf
+# pandoc -F pandoc-citeproc bibliography-demo.md -o bibliography-demo.pdf
 ---
 
 # Abstract
