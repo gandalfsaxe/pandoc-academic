@@ -128,6 +128,8 @@ header-includes:
 
 ## TODO
 
+* Figure out way to make `.tex` conversion a little nicer with respect to line wrapping (see `subfig-demo.tex` for example)
+
 ### Maybe
 
-Add to README.md a single example that is a mixture of all the demos as a minimal example + TOC
+* Add to README.md a single example that is a mixture of all the demos as a minimal example + TOC
