@@ -9,10 +9,10 @@ cref: true
 ![The yellow guy with square pants.](spongebob.png){#fig:spongebob width=48%} \hfill
 ![The dim but loveable pink sea star.](patrick.png){#fig:patrick width=48%}
 
-Two magnificant creatures of the sea.
+Two magnificent creatures of the sea.
 </div>
 
-Best buddes in [@fig:sbsp]. The protagonist in [@fig:spongebob] and his trusty sidekick in [@fig:patrick].
+Best buddies in [@fig:sbsp]. The protagonist in [@fig:spongebob] and his trusty sidekick in [@fig:patrick].
 
 ---
 
