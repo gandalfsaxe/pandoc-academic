@@ -57,7 +57,7 @@ Or compile pandoc-crossref from source, similar procedure to alternative 2 below
 Alternatively both pandoc and pandoc-citeproc can be manually installed with the release MSI installer:
 
 1. Download pandoc-*-windows-x86_64.zip from [pandoc releases](https://github.com/jgm/pandoc/releases).
-2. Extract and add both pandoc.exe and pandoc-crossref.exe to PATH.
+2. Extract and add both pandoc.exe and pandoc-citeproc.exe to PATH.
 
 The application will then be typically found in `C:\Users\[USER]\AppData\Local\Pandoc` and the path automatically added to PATH.
 
